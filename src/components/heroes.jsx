@@ -1,6 +1,7 @@
 import superheroes from '../data/superheroes.json'
 
 export default function heroes() {
+    console.log(superheroes);
     return (
         <div className='container-heroes' key={index}>{
             superheroes.map((item, index) => (
