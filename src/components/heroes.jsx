@@ -3,9 +3,9 @@ import superheroes from '../data/superheroes.json'
 export default function heroes() {
     console.log(superheroes);
     return (
-        <div className='container-heroes' key={index}>{
+        <div className='container-heroes'>{
             superheroes.map((item, index) => (
-                <div className='item'>
+                <div className='item' key={index}>
                     <h1 className='item-title'>{item.name}</h1>
                     <p>
                         <span>Universe: {item.universe}</span>
