@@ -9,7 +9,7 @@ export default function heroes() {
                     <h1 className='item-title'>{item.name}</h1>
                     <p>
                         <span>Universe: {item.universe}</span>
-                        <span>Friends: {item.firends}</span>
+                        <span>Friends: {item.friends}</span>
                         <span>Alterego: {item.alterego}</span>
                     </p>
                 </div>
