@@ -8,9 +8,13 @@ export default function heroes() {
                 <div className='item' key={index}>
                     <h1 className='item-title'>{item.name}</h1>
                     <p>
+                        <img src={item.url}></img>
                         <span>Universe: {item.universe}</span>
                         <span>Friends: {item.friends}</span>
                         <span>Alterego: {item.alterego}</span>
+                        <span> {item.occupation}</span>
+                        <span>Супер способности: {item.superpowers}</span>
+                        <span> {item.info}</span>
                     </p>
                 </div>
             ))}
